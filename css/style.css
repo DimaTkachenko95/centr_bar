@@ -17,12 +17,22 @@ header {
 
 nav ul {
     list-style: none;
-    text-align: center;
+    text-align: end;
+    padding-left: 0;
+}
+.logo_name{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
+
 nav ul li {
+
     display: inline-block;
 }
+
 
 nav ul li a {
     color: #fff;
@@ -51,11 +61,17 @@ section p {
 
 .menu-item {
     margin-bottom: 20px;
+    max-width: 372px;
 }
 
 .menu-item img {
-    width: 100%;
+    width: 60%;
     height: auto;
+}
+.container_burger {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .menu-item h3 {
@@ -83,17 +99,23 @@ form button {
     display: block;
     padding: 10px 20px;
 }
+.carousel {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+}
 
-.btn {
+.btn_menu {
     display: inline-block;
     padding: 10px 20px;
     background: #333;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
-.btn:hover {
+.btn_menu:hover {
     background: #555;
 }
 .contact{
@@ -102,6 +124,7 @@ form button {
     text-align: center;
     flex-wrap: wrap;
     padding-bottom: 20px;
+
 }
 .img_inst{
     padding-right: 10px;
