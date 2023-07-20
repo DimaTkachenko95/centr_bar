@@ -23,8 +23,6 @@ nav ul {
 .logo_name{
     color: white;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
 }
 
 
@@ -61,20 +59,43 @@ section p {
 
 .menu-item {
     margin-bottom: 20px;
-    max-width: 372px;
+    max-width: 300px;
+}
+.menu-item_hot-dog {
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+.img_logo{
+    margin: auto;
+    display: flex;
 }
 
 .menu-item img {
     width: 60%;
     height: auto;
 }
-.container_burger {
-    display: flex;
-    flex-wrap: wrap;
-
+.menu-item_hot-dog img {
+    width: 60%;
+    height: auto;
 }
+/*.container_burger {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+/*.container_hot-dog{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*}*/
 
+.menu-item_hot-dog h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 .menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.menu-item_snack h3 {
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -82,8 +103,19 @@ section p {
 .menu-item p {
     margin-bottom: 10px;
 }
-
+.menu-item_hot-dog p {
+    margin-bottom: 10px;
+}
+.menu-item_snack p {
+    margin-bottom: 10px;
+}
 .menu-item .price {
+    font-weight: bold;
+}
+.menu-item_hot-dog .price {
+    font-weight: bold;
+}
+.menu-item_snack .price {
     font-weight: bold;
 }
 
@@ -142,4 +174,52 @@ form button {
 }
 .instagram{
     color: black;
+}
+.accordion-body{
+    margin: auto;
+    text-align: center;
+}
+.card{
+    width: 250px;
+    margin: 20px;
+}
+.accordion-collapse{
+    display: flex;
+    justify-content: center;
+}
+.container_burger{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../img/burger.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container_hot-dog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../img/pizza.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*.img_burger{*/
+/*    position: absolute;*/
+/*    background-image: url(../img/p_O.jpg);*/
+/*    min-height: 500px;*/
+/*    background-attachment: fixed;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+.container_hot-dog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

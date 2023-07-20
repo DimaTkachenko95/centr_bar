@@ -17,7 +17,6 @@
     <nav>
         <ul>
             <li><a href="index.html">Главная</a></li>
-            <li><a href="about.html">О нас</a></li>
             <li><a href="menu.html">Меню</a></li>
             <li><a href="contact.html">Контакты</a></li>
         </ul>
@@ -27,72 +26,259 @@
 <section id="menu">
     <div class="container">
         <h2>Меню</h2>
-        <div class="container_burger">
-        <div class="menu-item">
-            <img src="img/p_O.jpg" alt="Бургер класичний">
-            <h3>Бургер класичний</h3>
-            <p> Котлета з яловичини </p>
-            <p>Листя салату</p>
-            <p>Сир чеддар</p>
-            <p>Помідори</p>
-            <p>Огірок маринований</p>
-            <span class="price">$110</span>
-        </div>
-        <div class="menu-item">
-            <img src="img/p_O.jpg" alt="Бургер український">
-            <h3>Бургер український</h3>
-            <p> Котлета з яловичини</p>
-            <p>Листя салату</p>
-            <p>Сир чеддар</p>
-            <p>Помідори</p>
-            <p>Огірок маринований</p>
-            <p>Червона цибуля</p>
-            <span class="price">$120</span>
-        </div>
-        <div class="menu-item">
-            <img src="img/p_O.jpg" alt="Бургер Centr">
-            <h3>Бургер "Centr"</h3>
-            <p> Котлета з яловичини</p>
-            <p>Листя салату</p>
-            <p>Сир чеддар</p>
-            <p>Помідори</p>
-            <p>Огірок маринований</p>
-            <p>Червона цибуля</p>
-            <p>Бекон</p>
-            <span class="price">$140</span>
-        </div>
-        </div>
-<!--ХотДог-->
-        <div class="menu-item">
-            <img src="img/Без названия.jpg" alt="Хот-Дог">
-            <h3>Хот-Дог "Класичний"</h3>
-            <p> Булочка </p>
-            <p> Сосиска классична </p>
-            <span class="price">$45</span>
-        </div>
-        <div class="menu-item">
-            <img src="img/Без названия.jpg" alt="Хот-Дог">
-            <h3>Хот-Дог Єгерський</h3>
-            <p> Булочка </p>
-            <p> Сосиска классична </p>
-            <span class="price">$45</span>
-        </div>
-        <div class="menu-item">
-            <img src="img/Без названия.jpg" alt="Хот-Дог">
-            <h3>Хот-Дог Зальцбург</h3>
-            <p> Булочка </p>
-            <p> Сосиска классична </p>
-            <span class="price">$45</span>
-        </div>
-<!--Закуски-->
-        <div class="menu-item">
-            <img src="img/Без названия.jpg" alt="Хот-Дог">
-            <h3></h3>
-            <p> Булочка </p>
-            <span class="price">$45</span>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                       Меню "Centr"
+                    </button>
+
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <!--Бургер-->
+                        <div class="container_burger">
+<!--                            <img class="img_burger" src="img/p_O.jpg" alt="Бургер класичний">-->
+                            <div class="menu-item">
+                                <img src="img/p_O.jpg" alt="Бургер класичний">
+                                <h3>Бургер класичний</h3>
+                                <p> Котлета з яловичини </p>
+                                <p>Листя салату</p>
+                                <p>Сир чеддар</p>
+                                <p>Помідори</p>
+                                <p>Огірок маринований</p>
+                                <span class="price">$110</span>
+                            </div>
+                            <div class="menu-item">
+                                <img src="img/p_O.jpg" alt="Бургер український">
+                                <h3>Бургер український</h3>
+                                <p> Котлета з яловичини</p>
+                                <p>Листя салату</p>
+                                <p>Сир чеддар</p>
+                                <p>Помідори</p>
+                                <p>Огірок маринований</p>
+                                <p>Червона цибуля</p>
+                                <span class="price">$120</span>
+                            </div>
+                            <div class="menu-item">
+                                <img src="img/p_O.jpg" alt="Бургер Centr">
+                                <h3>Бургер "Centr"</h3>
+                                <p> Котлета з яловичини</p>
+                                <p>Листя салату</p>
+                                <p>Сир чеддар</p>
+                                <p>Помідори</p>
+                                <p>Огірок маринований</p>
+                                <p>Червона цибуля</p>
+                                <p>Бекон</p>
+                                <span class="price">$140</span>
+                            </div>
+                        </div>
+
+
+                        <!--ХотДог-->
+                        <div class="container_hot-dog">
+                            <div class="menu-item_hot-dog">
+                                <img src="img/Без названия.jpg" alt="Хот-Дог">
+                                <h3>Хот-Дог "Класичний"</h3>
+                                <p> Булочка </p>
+                                <p> Сосиска классична </p>
+                                <span class="price">$45</span>
+                            </div>
+                            <div class="menu-item_hot-dog">
+                                <img src="img/Без названия.jpg" alt="Хот-Дог">
+                                <h3>Хот-Дог Єгерський</h3>
+                                <p> Булочка </p>
+                                <p> Сосиска классична </p>
+                                <span class="price">$45</span>
+                            </div>
+                            <div class="menu-item_hot-dog">
+                                <img src="img/Без названия.jpg" alt="Хот-Дог">
+                                <h3>Хот-Дог Зальцбург</h3>
+                                <p> Булочка </p>
+                                <p> Сосиска классична </p>
+                                <span class="price">$45</span>
+                            </div>
+                        </div>
+
+                        <!--Закуски-->
+                        <div class="container_snack">
+                            <div class="menu-item_snack">
+                                <img src="img/Без названия.jpg" alt="Хот-Дог">
+                                <h3>Пивна Тарілка</h3>
+                                <p>Крила</p>
+                                <p>Нагетси</p>
+                                <p>Цибулеві Кільця</p>
+                                <p>Сирні Палички</p>
+                                <p>Картопля пл Селянськи</p>
+                                <p>Соус</p>
+                                <span class="price">$45</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Бар
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="container_bear">
+                        <div class="card">
+                            <div class="card-header">
+                                Пиво
+                            </div>
+                            <div class="card-body">
+                                <p>Корона 0.33 <span class="price">60</span></p>
+                                <p>Закарпатське 0.5 <span class="price">35</span></p>
+                                <p>Жашківський кабан 0.5 <span class="price">40</span></p>
+                                <p>Пиво/Сидр <span class="price">40</span></p>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="container_vino">
+                            <div class="card">
+                            <div class="card-header">
+                            Вино
+                        </div>
+                            <div class="card-body">
+                                <p>Червоне <span class="price">150</span></p>
+                                <p>Біле <span class="price">150</span></p>
+                                <p>Ігристе <span class="price">210</span></p>
+                            </div>
+                            </div>
+                            </div>
+
+                        <div class="container_vodka">
+                            <div class="card">
+                                <div class="card-header">
+                                    Коньяк/Горілка
+                                </div>
+                                <div class="card-body">
+                                    <p>Гетьман 0,5/0,7 <span class="price">190/240</span></p>
+                                    <p>Козацька рада 0,5/0,7 <span class="price">160/225</span></p>
+                                    <p>Старий Кахетті 0,5 <span class="price">275</span></p>
+                                    <p>Шабо 0,5 <span class="price">200</span></p>
+                                </div>
+                            </div>
+                            </div>
+
+                        <div class="container_shoot">
+                            <div class="card">
+                                <div class="card-header">
+                                    Шот
+                                </div>
+                                <div class="card-body">
+                                    <p>Сорі, Мам<span class="price">50</span></p>
+                                    <p>Егерь Монстр<span class="price">50</span></p>
+                                    <p>Зелений Мексиканець<span class="price">50</span></p>
+                                    <p>Патріот<span class="price">50</span></p>
+                                    <p>Хіросіма<span class="price">50</span></p>
+                                    <p>Тарган<span class="price">50</span></p>
+                                    <p>Срібна Куля<span class="price">50</span></p>
+                                </div>
+                                </div>
+                                </div>
+
+                        <div class="container_cocktail">
+                            <div class="card">
+                                <div class="card-header">
+                                    Коктейлі
+                                </div>
+                                <div class="card-body">
+                                    <p>Віскі Кола<span class="price">65</span></p>
+                                    <p>Солодка Помста<span class="price">70</span></p>
+                                    <p>Блакитна лагуна<span class="price">70</span></p>
+                                    <p>Джин Тонік<span class="price">75</span></p>
+                                    <p>Мохіто<span class="price">75</span></p>
+                                    <p>Текіла Санрайз<span class="price">75</span></p>
+                                    <p>Чорна Карта<span class="price">80</span></p>
+                                    <p>Лонг-Фйленд<span class="price">100</span></p>
+                                </div>
+                                </div>
+
+                        <div class="container_elit_alco">
+                            <div class="card">
+                                <div class="card-header">
+                                    Елітное Алкоголь
+                                </div>
+                                <div class="card-body">
+                                    <p>Джін 50мл/0,7<span class="price">50/690</span></p>
+                                    <p>Текіла 50мл/0,5<span class="price">35/300</span></p>
+                                    <p>Ром 50мл/0,7<span class="price">35/440</span></p>
+                                    <p>Віскі 50мл/0,7<span class="price">50/665</span></p>
+                                    <p>Егермайстр 50мл/0,5<span class="price">35/450</span></p>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                    </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Напої
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="container_coffee">
+                            <div class="card">
+                                <div class="card-header">
+                                    Кава
+                                </div>
+                                <div class="card-body">
+                                    <p>Еспрессо <span class="price">20</span></p>
+                                    <p>Подвійне Еспрессо <span class="price">40</span></p>
+                                    <p>Амерікано <span class="price">25</span></p>
+                                    <p>Амерікано з молоком <span class="price">30</span></p>
+                                    <p>Лате <span class="price">40</span></p>
+                                    <p>Капучіно <span class="price">40</span></p>
+                                    <p>Какао <span class="price">45</span></p>
+                                    <p>Чай <span class="price">25</span></p>
+                                    <p>Бамбл <span class="price">55</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_dessert">
+                            <div class="card">
+                                <div class="card-header">
+                                    Десерти
+                                </div>
+                                <div class="card-body">
+                                    <p>Чуроси <span class="price">70</span></p>
+                                    <p>Мафін <span class="price">35</span></p>
+                                    <p>Донатс <span class="price">35</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_drinks">
+                            <div class="card">
+                                <div class="card-header">
+                                    Солодка вода
+                                </div>
+                                <div class="card-body">
+                                    <p>Сік <span class="price">65</span></p>
+                                    <p>Кока-кола 0,5 / 0,7 <span class="price">25/35</span></p>
+                                    <p>Фанта 0,5 / 0,7 <span class="price">25/35</span></p>
+                                    <p>Спрайт 0,5 / 0,7 <span class="price">25/35</span></p>
+                                    <p>Швепс <span class="price">40</span></p>
+                                    <p>Вода <span class="price">20</span></p>
+                                    <p>Non Stop <span class="price">35</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
+
 </section>
 
 </body>
