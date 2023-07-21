@@ -71,6 +71,27 @@ section p {
     background: white;
     position: relative;
 }
+.menu-item_container_snacks{
+    margin-bottom: 20px;
+    width: 200px;
+    min-height: 300px;
+    background: white;
+    position: relative;
+}
+.menu-item_container_pizza{
+    margin-bottom: 20px;
+    width: 200px;
+    min-height: 250px;
+    background: white;
+    position: relative;
+}
+.container_snacks{
+    margin-bottom: 20px;
+    width: 200px;
+    min-height: 300px;
+    background: white;
+    position: relative;
+}
 .img_logo{
     margin: auto;
     display: flex;
@@ -85,7 +106,16 @@ section p {
     width: 60%;
     height: auto;
     margin-top: 25px;
-
+}
+.menu-item_container_snacks img {
+    width: 60%;
+    height: auto;
+    margin-top: 25px;
+}
+.menu-item_container_pizza img {
+    width: 60%;
+    height: auto;
+    margin-top: 25px;
 }
 /*.container_burger {*/
 /*    display: flex;*/
@@ -131,6 +161,26 @@ section p {
     right: 16px;
     bottom: 0;
     font-size: 40px;
+}
+.menu-item_container_snacks .price {
+    font-weight: bold;
+    position: absolute;
+    right: 16px;
+    bottom: 0;
+    font-size: 40px;
+}
+.menu-item_container_pizza .price {
+    font-weight: bold;
+    position: absolute;
+    right: 16px;
+    bottom: 0;
+    font-size: 40px;
+}
+.menu-item_container_snacks h3{
+    margin-top: 25px;
+}
+.menu-item_container_pizza h3{
+    margin-top: 25px;
 }
 /*.menu-item_snack .price {*/
 /*    font-weight: bold;*/
@@ -214,10 +264,6 @@ form button {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px;
-
-
-
-
 }
 .container_burger{
     column-gap: 40px;
@@ -229,25 +275,36 @@ form button {
     column-gap: 40px;
     display: flex;
     flex-wrap: wrap;
-
 }
+.container_snack_max{
+    column-gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container_pizza{
+    column-gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .container_snack{
     padding: 30px;
     display: flex;
     justify-content: center;
 }
 
-/*.img_burger{*/
-/*    position: absolute;*/
-/*    background-image: url(../img/p_O.jpg);*/
-/*    min-height: 500px;*/
-/*    background-attachment: fixed;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*}*/
 .container_hot-dog{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.text-block {
+    background: rgba(255,255,255, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 360px;
+    color: black;
+    margin-bottom: 30px;
 }
