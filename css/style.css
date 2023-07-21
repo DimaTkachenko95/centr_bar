@@ -59,11 +59,17 @@ section p {
 
 .menu-item {
     margin-bottom: 20px;
-    max-width: 300px;
+    width: 200px;
+    min-height: 425px;
+    background: white;
+    position: relative;
 }
 .menu-item_hot-dog {
     margin-bottom: 20px;
-    max-width: 300px;
+    width: 200px;
+    min-height: 300px;
+    background: white;
+    position: relative;
 }
 .img_logo{
     margin: auto;
@@ -73,10 +79,13 @@ section p {
 .menu-item img {
     width: 60%;
     height: auto;
+    margin-top: 25px;
 }
 .menu-item_hot-dog img {
     width: 60%;
     height: auto;
+    margin-top: 25px;
+
 }
 /*.container_burger {*/
 /*    display: flex;*/
@@ -111,13 +120,25 @@ section p {
 }
 .menu-item .price {
     font-weight: bold;
+    position: absolute;
+    right: 16px;
+    bottom: 0;
+    font-size: 40px;
 }
 .menu-item_hot-dog .price {
     font-weight: bold;
+    position: absolute;
+    right: 16px;
+    bottom: 0;
+    font-size: 40px;
 }
-.menu-item_snack .price {
-    font-weight: bold;
-}
+/*.menu-item_snack .price {*/
+/*    font-weight: bold;*/
+/*    position: absolute;*/
+/*    right: 16px;*/
+/*    bottom: 0;*/
+/*    font-size: 40px;*/
+/*}*/
 
 form input,
 form textarea {
@@ -186,29 +207,36 @@ form button {
 .accordion-collapse{
     display: flex;
     justify-content: center;
-}
-.container_burger{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     background-image: url(../img/burger.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 30px;
+
+
+
+
+}
+.container_burger{
+    column-gap: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
 }
 .container_hot-dog{
+    column-gap: 40px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    background-image: url(../img/pizza.jpg);
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
+.container_snack{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
 /*.img_burger{*/
 /*    position: absolute;*/
 /*    background-image: url(../img/p_O.jpg);*/
