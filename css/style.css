@@ -39,17 +39,30 @@ nav ul li a {
 }
 
 .container {
-    position: absolute;
+    position: relative;
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
 }
+
 .container h2{
     position: relative;
     background: white;
 }
+.container_index{
+position: relative;
+    margin: auto;
+}
+.container_text{
+    border-radius: 20px;
+    margin: auto 0 20px;
+    width: 100%;
+    min-height: 280px;
+    background: rgba(255,255,255, 0.8);
+    position: relative;
 
+}
 section {
     padding: 40px 0;
 }
@@ -64,6 +77,7 @@ section p {
 }
 
 .menu-item {
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
     width: 200px;
@@ -100,8 +114,10 @@ section p {
     position: relative;
 }
 .img_logo{
+    position: relative;
     margin: auto;
     display: flex;
+    padding-bottom: 20px;
 }
 
 .menu-item img {
@@ -351,8 +367,10 @@ form button {
     top: 0;
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .img_bar{
+    object-fit: cover;
     position: absolute;
     left: 0;
     top: 0;
@@ -360,6 +378,7 @@ form button {
     width: 100%;
 }
 .img_desert{
+    object-fit: cover;
     position: absolute;
     left: 0;
     top: 0;
