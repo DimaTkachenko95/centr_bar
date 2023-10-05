@@ -77,38 +77,36 @@ section p {
 }
 
 .menu-item {
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 200px;
-    min-height: 425px;
+    margin: auto auto 25px;
+    max-width: 370px;
+    min-height: 490px;
     background: rgba(255,255,255, 0.8);
     position: relative;
 }
 .menu-item_hot-dog {
-    margin-bottom: 20px;
-    width: 200px;
+    margin: auto auto 25px;
+    /*max-width: 370px;*/
     min-height: 300px;
     background: rgba(255,255,255, 0.8);
     position: relative;
 }
 .menu-item_container_snacks{
-    margin-bottom: 20px;
-    width: 200px;
+    margin: auto auto 25px;
+    /*max-width: 370px;*/
     min-height: 300px;
     background: rgba(255,255,255, 0.8);
     position: relative;
 }
 .menu-item_container_pizza{
-    margin-bottom: 20px;
-    width: 200px;
-    min-height: 250px;
+    margin: auto auto 20px auto;
+    /*width: 200px;*/
+    min-height: 270px;
     background: rgba(255,255,255, 0.8);
     position: relative;
 }
 .container_snacks{
-    margin-bottom: 20px;
-    width: 200px;
+    margin: auto auto 20px auto;
+    /*width: 200px;*/
     min-height: 300px;
     background: white;
     position: relative;
@@ -290,42 +288,42 @@ form button {
 /*    padding: 30px;*/
 /*}*/
 
-.container_burger{
-    column-gap: 40px;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-}
-.container_hot-dog{
-    column-gap: 40px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.container_snack_max{
-    column-gap: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.container_pizza{
-    column-gap: 70px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+/*.container_burger{*/
+/*    column-gap: 40px;*/
+/*    flex-wrap: wrap;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+/*.container_hot-dog{*/
+/*    column-gap: 40px;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+/*.container_snack_max{*/
+/*    column-gap: 40px;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*}*/
+/*.container_pizza{*/
+/*    column-gap: 70px;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*}*/
 
-.container_snack{
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+/*.container_snack{*/
+/*    padding: 30px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-wrap: wrap;*/
+/*}*/
 
-.container_hot-dog{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+/*.container_hot-dog{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*}*/
 .text-block {
     max-height: 50px;
     position: relative;
@@ -350,9 +348,28 @@ form button {
 }
 .general_styles{
     position: relative;
+}
+.general_styless{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.container_burger{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_hot-dog{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_snack_max{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_pizza{
+    display: flex;
+    flex-wrap: wrap;
 }
 .img_fon{
     position: absolute;
