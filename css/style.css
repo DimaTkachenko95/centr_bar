@@ -45,19 +45,25 @@ nav ul li a {
     padding: 20px;
     text-align: center;
 }
+.video_codec{
+    width: 100px;
+}
 
+.d-block{
+    height: 357px;
+}
 .container h2{
     position: relative;
     background: white;
 }
 .container_index{
-position: relative;
+    position: relative;
     margin: auto;
 }
 .container_text{
     border-radius: 20px;
     margin: auto auto 20px;
-    width: 50%;
+    width: 80%;
     min-height: 280px;
     background: rgba(255,255,255, 0.8);
     position: relative;
@@ -78,8 +84,8 @@ section p {
 
 .menu-item {
     margin: auto auto 25px;
-    max-width: 370px;
-    min-height: 490px;
+    max-width: 250px;
+    min-height: 460px;
     background: rgba(255,255,255, 0.8);
     position: relative;
 }
@@ -92,7 +98,7 @@ section p {
 }
 .menu-item_container_snacks{
     margin: auto auto 25px;
-    /*max-width: 370px;*/
+    max-width: 250px;
     min-height: 300px;
     background: rgba(255,255,255, 0.8);
     position: relative;
