@@ -119,9 +119,10 @@ section p {
 }
 .img_logo{
     position: relative;
-    margin: auto;
+    margin: auto auto 20px auto;
     display: flex;
-    padding-bottom: 20px;
+    padding: 10px;
+    background-color: white;
 }
 
 .menu-item img {
@@ -230,7 +231,7 @@ form button {
     padding: 10px 20px;
 }
 .carousel {
-    width: 60%;
+    width: 290px;
     margin: auto;
     padding-bottom: 20px;
 }
@@ -249,13 +250,16 @@ form button {
     background: #555;
 }
 .contact{
+    position: relative;
     padding-top: 20px;
     margin: auto;
     text-align: center;
     flex-wrap: wrap;
     padding-bottom: 20px;
 
+
 }
+
 .img_inst{
     padding-right: 10px;
     max-height: 25px;
@@ -268,10 +272,12 @@ form button {
     max-width: 25px;
 }
 .telegram{
-    color: black;
+    position: absolute;
+    color: white;
 }
 .instagram{
-    color: black;
+    position: absolute;
+    color: white;
 }
 .accordion-body{
     margin: auto;
