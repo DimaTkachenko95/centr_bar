@@ -62,7 +62,7 @@ nav ul li a {
 }
 .container_text{
     border-radius: 20px;
-    margin: auto auto 20px;
+    margin: 20px auto 20px;
     width: 80%;
     min-height: 280px;
     background: rgba(255,255,255, 0.8);
@@ -119,10 +119,9 @@ section p {
 }
 .img_logo{
     position: relative;
-    margin: auto auto 20px auto;
+    margin: auto;
     display: flex;
-    padding: 10px;
-    background-color: white;
+    padding-bottom: 20px;
 }
 
 .menu-item img {
@@ -231,7 +230,7 @@ form button {
     padding: 10px 20px;
 }
 .carousel {
-    width: 290px;
+    width: 60%;
     margin: auto;
     padding-bottom: 20px;
 }
@@ -250,14 +249,20 @@ form button {
     background: #555;
 }
 .contact{
-    position: relative;
     padding-top: 20px;
     margin: auto;
     text-align: center;
     flex-wrap: wrap;
     padding-bottom: 20px;
+    position: relative;
+
+}
 
 
+.section_contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .img_inst{
@@ -266,17 +271,22 @@ form button {
     max-width: 25px;
 }
 .img_telegram {
-    margin-left: 60px;
+    padding-right: 10px;
+    max-height: 25px;
+    max-width: 25px;
+}
+.img_tiktok {
     padding-right: 10px;
     max-height: 25px;
     max-width: 25px;
 }
 .telegram{
-    position: absolute;
+    color: white;
+}
+.tiktok{
     color: white;
 }
 .instagram{
-    position: absolute;
     color: white;
 }
 .accordion-body{
